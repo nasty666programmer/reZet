@@ -1,0 +1,133 @@
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    width:75rem;
+    height: 35rem;
+    margin: auto;
+    padding: 0;
+}
+
+.wrapper_form {
+    background-color:#e8e8e8cf;
+    width: 50rem;
+    height: 30rem;
+    margin-left: 20%;
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+}
+
+#textField, #passField {
+    width: 40%;
+    padding: 2%;
+    border: 1px solid #ccc;
+    color: #ff6d37;
+    padding-left: 4%;
+   }
+
+   label {
+    width: 10%; /* Ширина */
+    font-weight: bold;
+    text-align: right; /* Выравниваем по правому краю */
+    float: left; /* Выстраиваем элементы рядом */
+    margin-right: 25%; /* Расстояние от текста до текстового поля */
+    line-height: 100%; /* Выравниваем по высоте */
+   }
+   
+   .submitField {
+    margin-left: 30rem;
+    background-color:#bbbbbbcf; 
+    border: none;
+    width: 5rem;
+    height: 3rem;
+   }
+
+   @media screen and (max-width: 1300px) {
+
+    .container {
+        width: 70%;
+        height: 80%;
+        margin-left: 1%;
+        margin-top: -4%;
+      }
+
+    .wrapper_form {
+        background-color:#e8e8e8cf;
+        width: auto;
+        height: 100%;
+        margin-left: 10%;
+        margin-top: -4%;
+    }
+
+    #textField, #passField {
+        width: 25%;
+        padding: 2%;
+        padding-left: 2%;
+       }
+
+       label {
+        width: 35%; /* Ширина */
+        font-weight: bold;
+        text-align: right; /* Выравниваем по правому краю */
+        float: left; /* Выстраиваем элементы рядом */
+        margin-right: 20%; /* Расстояние от текста до текстового поля */
+        line-height: 100%; /* Выравниваем по высоте */
+       }
+
+       .submitField {
+        margin-left: 15rem;
+        background-color:#bbbbbbcf; 
+        border: none;
+        width: 5rem;
+        height: 3rem;
+       }
+
+   }
+
+   @media screen and (max-width: 600px) {
+
+    .container {
+        width: 70%;
+        height: 70%;
+        margin-left: 1%;
+        margin-top: -4%;
+      }
+
+    .wrapper_form {
+        background-color:#e8e8e8cf;
+        width: 90%;
+        height: 90%;
+        margin-left: 15%;
+        margin-top: -13%;
+    }
+
+    #textField, #passField {
+        width: 25%;
+        padding: 2%;
+        padding-left: 2%;
+       }
+
+       label {
+        width: 35%; /* Ширина */
+        font-weight: bold;
+        text-align: right; /* Выравниваем по правому краю */
+        float: left; /* Выстраиваем элементы рядом */
+        margin-right: 20%; /* Расстояние от текста до текстового поля */
+        line-height: 100%; /* Выравниваем по высоте */
+       }
+
+       .submitField {
+        margin-left: 68%;
+        background-color:#bbbbbbcf; 
+        border: none;
+        width: 3rem;
+        height: 1rem;
+       }
+
+   }
+
+
+ 
